@@ -1,7 +1,4 @@
 {
-  "files.autoSave": "afterDelay",
-  "editor.formatOnSave": true,
-  "editor.fontSize": 13.5,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -16,5 +13,5 @@
   },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "always"
-  },
+  }
 }
