@@ -1,5 +1,7 @@
 import Image from 'next/image';
 
+import { Button } from '@/components/ui/button';
+
 export default function Home() {
   // this is one comment
   return (
@@ -78,6 +80,7 @@ export default function Home() {
           <Image aria-hidden src="/globe.svg" alt="Globe icon" width={16} height={16} />
           Go to nextjs.org →
         </a>
+        <Button variant="outline">Tailwind button</Button>
       </footer>
     </div>
   );
